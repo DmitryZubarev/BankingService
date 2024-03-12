@@ -2,7 +2,7 @@
 {
     public class UserSessionDto
     {
-        public Guid UserId { get; set; }
+        public Guid Id { get; set; }
         public decimal Price { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }

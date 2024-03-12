@@ -5,6 +5,6 @@ namespace GaB_BankingService.Controllers.Payment.PaymentRequests
     public class EndSessionRequest
     {
         [Required]
-        public Guid UserId { get; set; }
+        public Guid Id { get; set; }
     }
 }

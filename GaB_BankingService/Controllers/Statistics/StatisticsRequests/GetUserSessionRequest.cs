@@ -1,8 +1,11 @@
-﻿namespace GaB_BankingService.Controllers.Statistics.StatisticsRequests
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace GaB_BankingService.Controllers.Statistics.StatisticsRequests
 {
     public class GetUserSessionRequest
     {
-        public Guid UserId { get; set; }
+        [Required]
+        public Guid Id { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
     }
