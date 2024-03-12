@@ -1,4 +1,4 @@
-﻿namespace GaB_BankingService.Controllers.Payment.PaymentRequests
+﻿namespace GaB_BankingService.Controllers.Refund.RefundRequests
 {
     public class ReturnMoneyRequest
     {

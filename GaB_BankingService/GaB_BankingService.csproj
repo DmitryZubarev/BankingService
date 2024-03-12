@@ -17,10 +17,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Controllers\Payment\PaymentResponses\" />
-    <Folder Include="Controllers\Statistics\StatisticsRequests\" />
-    <Folder Include="Controllers\Statistics\StatisticsResponses\" />
-  </ItemGroup>
-
 </Project>

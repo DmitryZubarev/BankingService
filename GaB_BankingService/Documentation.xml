@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GaB_BankingService</name>
+    </assembly>
+    <members>
+        <member name="M:GaB_BankingService.Controllers.Management.ManagementController.GetTariffs(GaB_BankingService.Controllers.Management.ManagementRequests.GetTariffsRequest)">
+            <summary>
+            Получение списка тарифов
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Management.ManagementController.CreateTariff(GaB_BankingService.Controllers.Management.ManagementRequests.CreateTariffRequest)">
+            <summary>
+            Создание тарифа
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Management.ManagementController.UpdateTariff(GaB_BankingService.Controllers.Management.ManagementRequests.UpdateTariffRequest)">
+            <summary>
+            Изменение тарифа
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Management.ManagementController.DeleteTariff(GaB_BankingService.Controllers.Management.ManagementRequests.DeleteTariffRequest)">
+            <summary>
+            Удаление тарифа
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Payment.PaymentController.StartSession(GaB_BankingService.Controllers.Payment.PaymentRequests.StartSessionRequest)">
+            <summary>
+            Начать аренду
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Payment.PaymentController.EndSession(GaB_BankingService.Controllers.Payment.PaymentRequests.EndSessionRequest)">
+            <summary>
+            Закончить аренду
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Refund.RefundController.ReturnMoney(GaB_BankingService.Controllers.Refund.RefundRequests.ReturnMoneyRequest)">
+            <summary>
+            Вернуть деньги
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Statistics.StatisticsController.GetAllSessions(GaB_BankingService.Controllers.Statistics.StatisticsRequests.GetAllSessionsRequest)">
+            <summary>
+            Получение всех сессий аренды
+            </summary>
+        </member>
+        <member name="M:GaB_BankingService.Controllers.Statistics.StatisticsController.GetUserSession(GaB_BankingService.Controllers.Statistics.StatisticsRequests.GetUserSessionRequest)">
+            <summary>
+            Получение всех сессий аренды пользователя
+            </summary>
+        </member>
+    </members>
+</doc>
